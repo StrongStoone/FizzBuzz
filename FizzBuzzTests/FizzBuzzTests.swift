@@ -11,6 +11,8 @@ import XCTest
 
 class FizzBuzzTests: XCTestCase {
     
+    let brain = Brain()
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -21,16 +23,48 @@ class FizzBuzzTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testIsDivisibleByThree(number: Int) {
+        let brain = Brain()
+        let result = brain.isDivisibleByThree(number: 3)
+        XCTAssertEqual(result, true)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testoneIsDivisibleByThree() {
+        let brain = Brain()
+        let result = brain.isDivisibleByThree(number: 1)
+        XCTAssertEqual(result, false)
     }
     
+    func testIsDivisibleByFive() {
+        let brain = Brain()
+        let result = brain.isDivisibleByFive(number: 1)
+        XCTAssertEqual(result, false)
+    }
+    
+    func testIsDivisibleByFifteen() {
+        let brain = Brain()
+        let result = brain.isDivisibleByFifteen(number: 5)
+        XCTAssertEqual(result, false)
+    }
+    
+    func testSayFizz() {
+        let result = brain.check(number: 3)
+        XCTAssertEqual(result, "Fizz")
+ 
+    }
+    
+    func testSayBuzz() {
+        let result = brain.check(number: 5)
+        XCTAssertEqual(result, "Buzz")
+    }
+    
+    func testSayFizzBuzz() {
+        let result = brain.check(number: 15)
+        XCTAssertEqual(result, "FizzBuzz")
+    }
+    
+    func testSayNumber() {
+        let result = brain.check(number: 17)
+        XCTAssertEqual(result, "\(17)")
+    }
 }
