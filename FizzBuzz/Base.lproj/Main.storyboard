@@ -47,39 +47,43 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByH-Cp-xZ0">
                                         <rect key="frame" x="3" y="3" width="126" height="126"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="numberButton"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                         <state key="normal" title="0" backgroundImage="button_border">
                                             <color key="titleColor" red="0.98464848859999998" green="1" blue="0.98940740069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="None:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9vY-PK-5EM"/>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2HF-5q-dRM"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHR-BM-rNX" userLabel="Buzz">
                                         <rect key="frame" x="3" y="134" width="126" height="126"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="buzzButton"/>
                                         <state key="normal" image="lightning" backgroundImage="button_border">
                                             <color key="titleColor" red="0.98464848859999998" green="1" blue="0.98940740069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="Buzz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DXV-9H-qYI"/>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MOM-NE-HjW"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SfB-62-mTw" userLabel="Fizz">
                                         <rect key="frame" x="134" y="3" width="126" height="126"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="fizzButton"/>
                                         <state key="normal" image="champagne" backgroundImage="button_border">
                                             <color key="titleColor" red="0.98464848859999998" green="1" blue="0.98940740069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="Fizz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lk1-sP-usK"/>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rpa-r4-Ela"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAW-ip-5Dt" userLabel="FizzBuzz">
                                         <rect key="frame" x="134" y="134" width="126" height="126"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="fizzBuzzButton"/>
                                         <state key="normal" image="space" backgroundImage="button_border">
                                             <color key="titleColor" red="0.98464848859999998" green="1" blue="0.98940740069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="FizzBuzz:" destination="BYZ-38-t0r" eventType="touchUpInside" id="68j-jT-hpy"/>
+                                            <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7al-Sp-go9"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -116,6 +120,12 @@
                             <constraint firstItem="OSd-O1-fq6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="k2B-oE-Y2s"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buzzButton" destination="LHR-BM-rNX" id="wvM-bT-XqB"/>
+                        <outlet property="fizzButton" destination="SfB-62-mTw" id="qb6-W1-bxf"/>
+                        <outlet property="fizzBuzzButton" destination="bAW-ip-5Dt" id="9OJ-re-ZIa"/>
+                        <outlet property="numberButton" destination="ByH-Cp-xZ0" id="Wqz-h0-YiJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

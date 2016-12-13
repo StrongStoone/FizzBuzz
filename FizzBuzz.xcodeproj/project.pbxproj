@@ -12,18 +12,25 @@
 		3DB444B01DC07E62002D8C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB444AE1DC07E62002D8C72 /* Main.storyboard */; };
 		3DB444B21DC07E62002D8C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB444B11DC07E62002D8C72 /* Assets.xcassets */; };
 		3DB444B51DC07E62002D8C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB444B31DC07E62002D8C72 /* LaunchScreen.storyboard */; };
-		3DB444C01DC07E62002D8C72 /* FizzBuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444BF1DC07E62002D8C72 /* FizzBuzzTests.swift */; };
-		3DB444CE1DC07FE6002D8C72 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444CC1DC07F85002D8C72 /* Brain.swift */; };
+		3DB444C01DC07E62002D8C72 /* BrainTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444BF1DC07E62002D8C72 /* BrainTest.swift */; };
 		3DB444D61DC089D0002D8C72 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444D51DC089D0002D8C72 /* Game.swift */; };
 		3DB444D81DC09812002D8C72 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444CC1DC07F85002D8C72 /* Brain.swift */; };
-		3DB444E01DC1EF24002D8C72 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444D51DC089D0002D8C72 /* Game.swift */; };
 		3DB444E11DC1EF37002D8C72 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444D31DC087CA002D8C72 /* GameTests.swift */; };
 		FED4AE291DFE9D8F000E4F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB444AE1DC07E62002D8C72 /* Main.storyboard */; };
+		FED4AE3E1DFF9BE3000E4F05 /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4AE2D1DFF9AC9000E4F05 /* ViewControllerUITests.swift */; };
+		FED4AE401DFFB3EF000E4F05 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4AE3F1DFFB3EF000E4F05 /* Move.swift */; };
 		FEF55CC51DFE93EE00DA5580 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF55CC41DFE93EE00DA5580 /* ViewControllerUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3DB444BC1DC07E62002D8C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB4449F1DC07E62002D8C72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB444A61DC07E62002D8C72;
+			remoteInfo = FizzBuzz;
+		};
+		FED4AE391DFF9BBA000E4F05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3DB4449F1DC07E62002D8C72 /* Project object */;
 			proxyType = 1;
@@ -41,11 +48,15 @@
 		3DB444B41DC07E62002D8C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DB444B61DC07E62002D8C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DB444BB1DC07E62002D8C72 /* FizzBuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DB444BF1DC07E62002D8C72 /* FizzBuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTests.swift; sourceTree = "<group>"; };
+		3DB444BF1DC07E62002D8C72 /* BrainTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTest.swift; sourceTree = "<group>"; };
 		3DB444C11DC07E62002D8C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DB444CC1DC07F85002D8C72 /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		3DB444D31DC087CA002D8C72 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		3DB444D51DC089D0002D8C72 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FED4AE2D1DFF9AC9000E4F05 /* ViewControllerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerUITests.swift; path = ../ViewControllerUITests.swift; sourceTree = "<group>"; };
+		FED4AE341DFF9BBA000E4F05 /* FizzBuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED4AE381DFF9BBA000E4F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED4AE3F1DFFB3EF000E4F05 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		FEF55CC41DFE93EE00DA5580 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +75,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FED4AE311DFF9BBA000E4F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +90,7 @@
 			children = (
 				3DB444A91DC07E62002D8C72 /* FizzBuzz */,
 				3DB444BE1DC07E62002D8C72 /* FizzBuzzTests */,
+				FED4AE351DFF9BBA000E4F05 /* FizzBuzzUITests */,
 				3DB444A81DC07E62002D8C72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +100,7 @@
 			children = (
 				3DB444A71DC07E62002D8C72 /* FizzBuzz.app */,
 				3DB444BB1DC07E62002D8C72 /* FizzBuzzTests.xctest */,
+				FED4AE341DFF9BBA000E4F05 /* FizzBuzzUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +113,7 @@
 				3DB444E61DC1EFF7002D8C72 /* View */,
 				3DB444B11DC07E62002D8C72 /* Assets.xcassets */,
 				3DB444B61DC07E62002D8C72 /* Info.plist */,
+				FED4AE3F1DFFB3EF000E4F05 /* Move.swift */,
 				3DB444E51DC1EFF0002D8C72 /* Model */,
 			);
 			path = FizzBuzz;
@@ -101,7 +122,7 @@
 		3DB444BE1DC07E62002D8C72 /* FizzBuzzTests */ = {
 			isa = PBXGroup;
 			children = (
-				3DB444BF1DC07E62002D8C72 /* FizzBuzzTests.swift */,
+				3DB444BF1DC07E62002D8C72 /* BrainTest.swift */,
 				3DB444C11DC07E62002D8C72 /* Info.plist */,
 				3DB444D31DC087CA002D8C72 /* GameTests.swift */,
 				FEF55CC41DFE93EE00DA5580 /* ViewControllerUnitTests.swift */,
@@ -133,6 +154,15 @@
 				3DB444AE1DC07E62002D8C72 /* Main.storyboard */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		FED4AE351DFF9BBA000E4F05 /* FizzBuzzUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FED4AE2D1DFF9AC9000E4F05 /* ViewControllerUITests.swift */,
+				FED4AE381DFF9BBA000E4F05 /* Info.plist */,
+			);
+			path = FizzBuzzUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,13 +203,31 @@
 			productReference = 3DB444BB1DC07E62002D8C72 /* FizzBuzzTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FED4AE331DFF9BBA000E4F05 /* FizzBuzzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED4AE3B1DFF9BBA000E4F05 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */;
+			buildPhases = (
+				FED4AE301DFF9BBA000E4F05 /* Sources */,
+				FED4AE311DFF9BBA000E4F05 /* Frameworks */,
+				FED4AE321DFF9BBA000E4F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED4AE3A1DFF9BBA000E4F05 /* PBXTargetDependency */,
+			);
+			name = FizzBuzzUITests;
+			productName = FizzBuzzUITests;
+			productReference = FED4AE341DFF9BBA000E4F05 /* FizzBuzzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3DB4449F1DC07E62002D8C72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
+				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Hyungsuk;
 				TargetAttributes = {
@@ -191,6 +239,11 @@
 					3DB444BA1DC07E62002D8C72 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = CMJ96UXHFM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DB444A61DC07E62002D8C72;
+					};
+					FED4AE331DFF9BBA000E4F05 = {
+						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 3DB444A61DC07E62002D8C72;
 					};
@@ -211,6 +264,7 @@
 			targets = (
 				3DB444A61DC07E62002D8C72 /* FizzBuzz */,
 				3DB444BA1DC07E62002D8C72 /* FizzBuzzTests */,
+				FED4AE331DFF9BBA000E4F05 /* FizzBuzzUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,6 +288,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FED4AE321DFF9BBA000E4F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -242,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB444AD1DC07E62002D8C72 /* ViewController.swift in Sources */,
+				FED4AE401DFFB3EF000E4F05 /* Move.swift in Sources */,
 				3DB444D61DC089D0002D8C72 /* Game.swift in Sources */,
 				3DB444D81DC09812002D8C72 /* Brain.swift in Sources */,
 				3DB444AB1DC07E62002D8C72 /* AppDelegate.swift in Sources */,
@@ -252,11 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB444CE1DC07FE6002D8C72 /* Brain.swift in Sources */,
 				FEF55CC51DFE93EE00DA5580 /* ViewControllerUnitTests.swift in Sources */,
-				3DB444E01DC1EF24002D8C72 /* Game.swift in Sources */,
-				3DB444C01DC07E62002D8C72 /* FizzBuzzTests.swift in Sources */,
+				3DB444C01DC07E62002D8C72 /* BrainTest.swift in Sources */,
 				3DB444E11DC1EF37002D8C72 /* GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED4AE301DFF9BBA000E4F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED4AE3E1DFF9BE3000E4F05 /* ViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +335,11 @@
 			isa = PBXTargetDependency;
 			target = 3DB444A61DC07E62002D8C72 /* FizzBuzz */;
 			targetProxy = 3DB444BC1DC07E62002D8C72 /* PBXContainerItemProxy */;
+		};
+		FED4AE3A1DFF9BBA000E4F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB444A61DC07E62002D8C72 /* FizzBuzz */;
+			targetProxy = FED4AE391DFF9BBA000E4F05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,6 +512,32 @@
 			};
 			name = Release;
 		};
+		FED4AE3C1DFF9BBA000E4F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..FizzBuzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FizzBuzz;
+			};
+			name = Debug;
+		};
+		FED4AE3D1DFF9BBA000E4F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FizzBuzzUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..FizzBuzzUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FizzBuzz;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +564,15 @@
 			buildConfigurations = (
 				3DB444C81DC07E62002D8C72 /* Debug */,
 				3DB444C91DC07E62002D8C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED4AE3B1DFF9BBA000E4F05 /* Build configuration list for PBXNativeTarget "FizzBuzzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED4AE3C1DFF9BBA000E4F05 /* Debug */,
+				FED4AE3D1DFF9BBA000E4F05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
