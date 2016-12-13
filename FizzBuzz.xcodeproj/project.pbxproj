@@ -18,6 +18,8 @@
 		3DB444D81DC09812002D8C72 /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444CC1DC07F85002D8C72 /* Brain.swift */; };
 		3DB444E01DC1EF24002D8C72 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444D51DC089D0002D8C72 /* Game.swift */; };
 		3DB444E11DC1EF37002D8C72 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB444D31DC087CA002D8C72 /* GameTests.swift */; };
+		FED4AE291DFE9D8F000E4F05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB444AE1DC07E62002D8C72 /* Main.storyboard */; };
+		FEF55CC51DFE93EE00DA5580 /* ViewControllerUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF55CC41DFE93EE00DA5580 /* ViewControllerUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 		3DB444CC1DC07F85002D8C72 /* Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		3DB444D31DC087CA002D8C72 /* GameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		3DB444D51DC089D0002D8C72 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FEF55CC41DFE93EE00DA5580 /* ViewControllerUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				3DB444BF1DC07E62002D8C72 /* FizzBuzzTests.swift */,
 				3DB444C11DC07E62002D8C72 /* Info.plist */,
 				3DB444D31DC087CA002D8C72 /* GameTests.swift */,
+				FEF55CC41DFE93EE00DA5580 /* ViewControllerUnitTests.swift */,
 			);
 			path = FizzBuzzTests;
 			sourceTree = "<group>";
@@ -226,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED4AE291DFE9D8F000E4F05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB444CE1DC07FE6002D8C72 /* Brain.swift in Sources */,
+				FEF55CC51DFE93EE00DA5580 /* ViewControllerUnitTests.swift in Sources */,
 				3DB444E01DC1EF24002D8C72 /* Game.swift in Sources */,
 				3DB444C01DC07E62002D8C72 /* FizzBuzzTests.swift in Sources */,
 				3DB444E11DC1EF37002D8C72 /* GameTests.swift in Sources */,
